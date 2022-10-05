@@ -433,21 +433,13 @@ main {
 
 .hero__btn {
   margin-top: 38px;
-  padding: 15px 36px;
+  padding: 15px 47px;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
   color: white;
   background: #333;
   border-radius: 3px;
-}
-.hero__btn::before {
-  width: 21px;
-  height: 21px;
-  background-image: url("../img/price.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
 }
 
 .hero__btn:hover {
