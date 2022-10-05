@@ -1,35 +1,60 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-body{
+body {
+  font-family: 'Futura PT', sans-serif;
   margin: 0;
   padding: 0;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
-ul,ol{
+
+ul,
+ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-img{
-  width:100%;
-  height:auto;
+
+img {
+  width: 100%;
+  height: auto;
 }
-a{
+
+a {
   text-decoration: none;
   display: inline-block;
 }
-.container{
+
+.container {
   max-width: $global_size;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
   padding: $global_pad;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 0 10px;
+  }
 }

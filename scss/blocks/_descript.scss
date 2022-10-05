@@ -1,0 +1,82 @@
+.descript {
+  padding-top: 100px;
+  padding-bottom: 191px;
+}
+
+.descript__inner {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1134px;
+  width: 100%;
+}
+
+.descript__inner p {
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+}
+
+.descript__text {
+  display: flex;
+  align-items: center;
+}
+
+.descript__text p {
+  position: relative;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+}
+
+.descript__text::after,
+.descript__text::before {
+  display: inline-block;
+  content: "“";
+  font-family: 'Gaegu';
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 250px;
+  color: #DBDBDB;
+}
+
+.descript__text::after {
+  transform: rotate(-180deg);
+}
+
+.descript__inner span {
+  position: absolute;
+  top: 15%;
+  bottom: 20%;
+  align-self: center;
+  width: 140px;
+  border-top: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+}
+@media screen and (max-width:630px){
+  .descript__inner {
+    max-width: 100%;
+  }
+  .descript__inner span{
+    display: none;
+  }
+  
+  .descript__text::after,
+  .descript__text::before {
+    font-size: 130px;
+    line-height: 115px;
+  }
+}
+@media screen and (max-width:630px){
+  .descript__text::after,
+  .descript__text::before {
+    font-size: 90px;
+    line-height: 75px;
+  }
+}

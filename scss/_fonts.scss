@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), 
+       url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+       font-display:swap;
+}
+@font-face {
+  font-family: 'Gaegu';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/gaegu-v15-latin-regular.woff') format('woff2'), 
+       url('../fonts/gaegu-v15-latin-regular.woff') format('woff');
+       font-display:swap;
+}
+@font-face {
+  font-family: 'Darkline';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/Darkline.woff2') format('woff2'), 
+       url('../fonts/Darkline.woff') format('woff');
+       font-display:swap;
+}
+@font-face {
+  font-family: 'VAG World';
+  font-style: normal;
+  src: local(''),
+       url('../fonts/vag-world-bold.woff2') format('woff2'), 
+       url('../fonts/vag-world-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/FuturaPT-Book.woff2') format('woff2'), 
+       url('../fonts/FuturaPT-Book.woff') format('woff');
+       font-display:swap;
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/FuturaPT-Demi.woff2') format('woff2'), 
+       url('../fonts/FuturaPT-Demi.woff') format('woff');
+       font-display:swap;
+}
+@font-face {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/FuturaPT-Bold.woff2') format('woff2'), 
+       url('../fonts/FuturaPT-Bold.woff') format('woff');
+       font-display:swap;
+}
