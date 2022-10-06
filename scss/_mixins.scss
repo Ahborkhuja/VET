@@ -20,23 +20,6 @@
 }
 
 @mixin btn {
-  padding: 15px 36px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
-  color: white;
-  background: #333;
-  border-radius: 3px;
-  &::before{
-    width: 21px;
-    height: 21px;
-    background-image: url("../img/price.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size:contain;
-  }
-}
-@mixin btn_reg {
   padding: 15px 47px;
   font-weight: 500;
   font-size: 16px;
@@ -44,4 +27,20 @@
   color: white;
   background: #333;
   border-radius: 3px;
+
+}
+
+@mixin btn_reg {
+  padding: 15px 36px;
+  @include medium;
+  background: #FFBD54;
+  border-radius: 3px;
+  &::before {
+    width: 21px;
+    height: 21px;
+    background-image: url("../img/price.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
 }
