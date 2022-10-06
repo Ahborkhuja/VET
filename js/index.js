@@ -2,7 +2,7 @@ const bur_open = document.querySelector('.navbar__sub_list')
 const btn = document.querySelector('.site_header__burger');
 const body = document.querySelector('body');
 const site_headi = document.querySelector('.site_header');
-const site_hero = document.querySelector('.hero');
+const site_hero = document.querySelector('main');
 btn.addEventListener('click', () => {
   bur_open.classList.toggle('open');
   body.classList.toggle('overflow');
